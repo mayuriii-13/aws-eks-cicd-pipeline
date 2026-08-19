@@ -1,0 +1,27 @@
+{
+  "name": "aws-eks-cicd-pipeline",
+  "version": "1.0.0",
+  "description": "This project demonstrates the implementation of an end-to-end CI/CD pipeline for deploying a containerized microservices application to Amazon Elastic Kubernetes Service (EKS). The solution automates application build, testing, containerization, and deployment processes, eliminating manual intervention and enabling consistent, reliable software releases.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+  "start": "node server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayuriii-13/aws-eks-cicd-pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mayuriii-13/aws-eks-cicd-pipeline/issues"
+  },
+  "homepage": "https://github.com/mayuriii-13/aws-eks-cicd-pipeline#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
